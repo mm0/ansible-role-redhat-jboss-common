@@ -1,4 +1,4 @@
-Ansible role: "Red Hat JBoss common" [![Build Status](https://travis-ci.org/Maarc/ansible-role-redhat-jboss-common.svg?branch=master)](https://travis-ci.org/Maarc/ansible-role-redhat-jboss-common) [![Galaxy](https://img.shields.io/badge/galaxy-maarc.rh--jboss--common-blue.svg?style=flat)](https://galaxy.ansible.com/Maarc/rh-jboss-common)
+Ansible role: "Red Hat JBoss common" [![Build Status](https://travis-ci.org/mm0/ansible-role-redhat-jboss-common.svg?branch=master)](https://travis-ci.org/mm0/ansible-role-redhat-jboss-common) [![Galaxy](https://img.shields.io/badge/galaxy-maarc.rh--jboss--common-blue.svg?style=flat)](https://galaxy.ansible.com/mm0/rh-jboss-common)
 =================================
 
 Description
@@ -6,9 +6,9 @@ Description
 
 Installs the prerequisites for the Red Hat JBoss middleware products specific roles like:
 
-- [Red Hat JBoss Enterprise Application Platform (EAP)](https://github.com/Maarc/ansible-role-redhat-jboss-eap)
-- [Red Hat JBoss Web Server (JWS) - Apache HTTPD](https://github.com/Maarc/ansible-role-redhat-jboss-web-server-httpd)
-- [Red Hat JBoss Web Server (JWS) - Apache Tomcat](https://github.com/Maarc/ansible-role-redhat-jboss-web-server-tomcat)
+- [Red Hat JBoss Enterprise Application Platform (EAP)](https://github.com/mm0/ansible-role-redhat-jboss-eap)
+- [Red Hat JBoss Web Server (JWS) - Apache HTTPD](https://github.com/mm0/ansible-role-redhat-jboss-web-server-httpd)
+- [Red Hat JBoss Web Server (JWS) - Apache Tomcat](https://github.com/mm0/ansible-role-redhat-jboss-web-server-tomcat)
 
 This role sets the timezone, some shell aliases and installs the following packages:
 
@@ -19,7 +19,7 @@ This role sets the timezone, some shell aliases and installs the following packa
 - psmisc (for pstree)
 - vim (for vimdiff)
 
-Please have a look at [this example](https://github.com/Maarc/ansible_middleware_soe) showing how to easily operate Red Hat JBoss middleware products using this role.
+Please have a look at [this example](https://github.com/mm0/ansible_middleware_soe) showing how to easily operate Red Hat JBoss middleware products using this role.
 
 
 Requirements
@@ -37,7 +37,7 @@ None.
 Installation
 ------------
 
-  ansible-galaxy install Maarc.rh-jboss-common
+  ansible-galaxy install mm0.rh-jboss-common
 
 
 Role Variables
@@ -59,5 +59,5 @@ License
 Author Information
 ------------------
 
-* [Marc Zottner](https://github.com/Maarc)
+* [Marc Zottner](https://github.com/mm0)
 * [Roeland van de Pol](https://github.com/roelandpol)

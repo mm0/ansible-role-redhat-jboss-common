@@ -1,4 +1,4 @@
-Ansible role: "Red Hat JBoss common" [![Build Status](https://travis-ci.org/mm0/ansible-role-redhat-jboss-common.svg?branch=master)](https://travis-ci.org/mm0/ansible-role-redhat-jboss-common) [![Galaxy](https://img.shields.io/badge/galaxy-maarc.rh--jboss--common-blue.svg?style=flat)](https://galaxy.ansible.com/mm0/rh-jboss-common)
+Ansible role: "Red Hat JBoss common" [![Build Status](https://travis-ci.org/mm0/ansible-role-redhat-jboss-common.svg?branch=master)](https://travis-ci.org/mm0/ansible-role-redhat-jboss-common) [![Galaxy](https://img.shields.io/badge/galaxy-mm0.rh--jboss--common-blue.svg?style=flat)](https://galaxy.ansible.com/mm0/rh-jboss-common)
 =================================
 
 Description

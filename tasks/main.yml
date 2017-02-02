@@ -29,4 +29,4 @@
 - name: (00) Set server timezone
   become: true
   when: bashrc_uploaded.changed == True and ( env is not defined or env != 'docker' )
-  command: "timedatectl set-timezone {{ timezone }}"
+  file: dest=/etc/localtime state=link src="/usr/share/zoneinfo/{{timezone}}" owner=root group=root mode=644 force=true
